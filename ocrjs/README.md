@@ -1,0 +1,1 @@
+This is an OCR using tesseract.js library.
