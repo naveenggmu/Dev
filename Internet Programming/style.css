@@ -1,0 +1,44 @@
+.ballimg {
+    height: 70px;
+    width: 70px;
+    /* transform: rotate(180deg); */
+
+    animation: rotations 5s infinite;
+
+}
+/* .ballimg:hover { */
+    /* transform: rotate(180deg); */
+
+/* } */
+
+@keyframes rotations {
+    15%{transform: rotate(30deg);}
+    35%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    65%{transform: rotate(240deg);}
+    85%{transform: rotate(300deg);}
+    100%{transform: rotate(360deg);}
+}
+
+body { 
+    background: url('pitch.jpg');
+    background-size: cover;
+}
+.bg {
+    animation: bgmove 5s infinite;
+
+}
+@keyframes bgmove {
+    0%{transform: translateX(0vw);}
+    10%{transform: translateX(10vw);}
+    20%{transform: translateX(20vw);}
+    30%{transform: translateX(30vw);}
+    40%{transform: translateX(40vw);}
+    50%{transform: translateX(50vw);}
+    60%{transform: translateX(60vw);}
+    70%{transform: translateX(70vw);}
+    80%{transform: translateX(80vw);}
+    90%{transform: translateX(90vw);}
+    100%{transform: translateX(100vw);}
+
+}
